@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginUser">
+
+    <TextView
+        android:id="@+id/textView"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login On Your Account" />
+
+
+
+    <EditText
+        android:id="@+id/ed_email_login"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+    <EditText
+        android:id="@+id/ed_password_login"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_btn"
+        android:text="Login"/>
+
+    <TextView
+        android:id="@+id/goto_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="Not a user? Register"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
